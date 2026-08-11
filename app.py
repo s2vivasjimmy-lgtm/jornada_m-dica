@@ -91,8 +91,8 @@ link_whatsapp = "https://wa.me/584221927751"
 # --- INTERFAZ VISUAL ---
 st.markdown("""
 <div class="main-card">
-    <div class="title-text">Puesto de Comando</div>
-    <div class="subtitle-text">Canales oficiales de comunicación y geolocalización</div>
+    <div class="title-text">II ATENCIÓN MÉDICA ESPECIALIZADA "VENEZUELA RENACE"</div>
+    <div class="subtitle-text">Autoridad Única de Salud Militar del Estado La Guaira</div>
 """, unsafe_allow_html=True)
 
 st.markdown(f'<a href="{link_maps}" target="_blank" class="btn-command"><span class="btn-icon">📍</span> UBICACIÓN EN GOOGLE MAPS</a>', unsafe_allow_html=True)
