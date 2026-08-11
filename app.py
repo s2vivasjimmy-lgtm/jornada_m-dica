@@ -33,6 +33,6 @@ link_telegram = "https://t.me/autoridadsaludLG"
 link_whatsapp = "https://wa.me/584221927751"
 
 # Botones
-st.markdown(f'<a href="{link_maps}" target="_blank" class="btn-link">📍 UBICACIÓN EN MAPS</a>', unsafe_allow_html=True)
-st.markdown(f'<a href="{link_telegram}" target="_blank" class="btn-link">✈️ TELEGRAM</a>', unsafe_allow_html=True)
-st.markdown(f'<a href="{link_whatsapp}" target="_blank" class="btn-link">💬 WHATSAPP</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{link_maps}" target="_blank" class="btn-link">📍UBICACIÓN EN MAPS</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{link_telegram}" target="_blank" class="btn-link">✈️TELEGRAM</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{link_whatsapp}" target="_blank" class="btn-link">💬WHATSAPP</a>', unsafe_allow_html=True)
