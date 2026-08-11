@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Centro de Comando | Enlaces Directos", 
+    page_title="Jornada Médica", 
     page_icon="⚡",
     layout="centered"
 )
