@@ -28,9 +28,9 @@ st.title("🔗 Acceso Directo")
 st.write("Selecciona una vía de contacto o ubicación:")
 
 # --- CONFIGURA TUS LINKS AQUÍ ---
-link_maps = "https://maps.app.goo.gl/TU_LINK_MAPS"
-link_telegram = "https://t.me/TU_USUARIO"
-link_whatsapp = "https://wa.me/584120000000"
+link_maps = "https://maps.app.goo.gl/brQG1Z1gmYCVLPgKA"
+link_telegram = "@autoridadsaludLG"
+link_whatsapp = "https://wa.me/584221927751"
 
 # Botones
 st.markdown(f'<a href="{link_maps}" target="_blank" class="btn-link">📍 UBICACIÓN EN MAPS</a>', unsafe_allow_html=True)
