@@ -89,21 +89,14 @@ link_telegram = "https://t.me/autoridadsaludLG"
 link_whatsapp = "https://wa.me/584221927751"
 
 # --- INTERFAZ VISUAL ---
-st.markdown(f"""
+st.markdown("""
 <div class="main-card">
     <div class="title-text">Puesto de Comando</div>
     <div class="subtitle-text">Canales oficiales de comunicación y geolocalización</div>
-    
-    <a href="{link_maps}" target="_blank" class="btn-command">
-        <span class="btn-icon">📍</span> UBICACIÓN EN GOOGLE MAPS
-    </a>
-    
-    <a href="{link_telegram}" target="_blank" class="btn-command">
-        <span class="btn-icon">✈️</span> CANAL DE TELEGRAM
-    </a>
-    
-    <a href="{link_whatsapp}" target="_blank" class="btn-command">
-        <span class="btn-icon">💬</span> SOPORTE VÍA WHATSAPP
-    </a>
-</div>
 """, unsafe_allow_html=True)
+
+st.markdown(f'<a href="{link_maps}" target="_blank" class="btn-command"><span class="btn-icon">📍</span> UBICACIÓN EN GOOGLE MAPS</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{link_telegram}" target="_blank" class="btn-command"><span class="btn-icon">✈️</span> CANAL DE TELEGRAM</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{link_whatsapp}" target="_blank" class="btn-command"><span class="btn-icon">💬</span> SOPORTE VÍA WHATSAPP</a>', unsafe_allow_html=True)
+
+st.markdown("</div>", unsafe_allow_html=True)
