@@ -29,7 +29,7 @@ st.write("Selecciona una vía de contacto o ubicación:")
 
 # --- CONFIGURA TUS LINKS AQUÍ ---
 link_maps = "https://maps.app.goo.gl/brQG1Z1gmYCVLPgKA"
-link_telegram = "@autoridadsaludLG"
+link_telegram = "https://t.me/autoridadsaludLG"
 link_whatsapp = "https://wa.me/584221927751"
 
 # Botones
