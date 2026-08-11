@@ -96,7 +96,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.markdown(f'<a href="{link_maps}" target="_blank" class="btn-command"><span class="btn-icon">📍</span> UBICACIÓN EN GOOGLE MAPS</a>', unsafe_allow_html=True)
-st.markdown(f'<a href="{link_telegram}" target="_blank" class="btn-command"><span class="btn-icon">✈️</span> CANAL DE TELEGRAM</a>', unsafe_allow_html=True)
+st.markdown(f'<a href="{link_telegram}" target="_blank" class="btn-command"><span class="btn-icon">✈️</span> TELEGRAM</a>', unsafe_allow_html=True)
 st.markdown(f'<a href="{link_whatsapp}" target="_blank" class="btn-command"><span class="btn-icon">💬</span> WHATSAPP</a>', unsafe_allow_html=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
